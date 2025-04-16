@@ -6,7 +6,7 @@ DATABASE_URL = "postgresql://rodrigo_user:desarrollo@localhost:5432/viajero_db"
 
 engine = create_engine(DATABASE_URL)
 
-# # DATABASE_URL = "sqlite:///viajero.db"
+# DATABASE_URL = "sqlite:///viajero.db"
 # engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
