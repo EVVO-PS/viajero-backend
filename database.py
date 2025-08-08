@@ -9,7 +9,7 @@ load_dotenv()
 
 # Obtener la URL de la base de datos desde las variables de entorno
 # Si no existe, usar la URL local como fallback para desarrollo
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://rodrigo_user:desarrollo@localhost:5432/viajero_db")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgres://neondb_owner:npg_yh1BSzLewK4T@ep-withered-recipe-ac4iedor-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require")
 
 # Para PostgreSQL en Render, es posible que necesites modificar la URL si usa el prefijo postgres://
 if DATABASE_URL.startswith("postgres://"):
