@@ -1,0 +1,1 @@
+<!-- Si bien no es necesario subir scrips, lo comparto a modo de guia para aquellos que necesiten conectar su proyecto con FASTAPI hacia PostgreSQL. -->
